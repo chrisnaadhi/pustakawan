@@ -9,9 +9,18 @@
 	<div class="absolute w-full h-full bg-dark-8 opacity-80 z-1" />
 	<div class="z-2 flex flex-col gap-3">
 		<h1>Pustakawan</h1>
-		<p>
+		<p class="text-md font-semibold text-white">
 			Portal Pustakawan untuk berbagi pengalaman, ilmu dan ide untuk pengembangan koleksi pustaka
 			dan infrastruktur yang mendukungnya.
+		</p>
+		<p class="text-xs text-gray-3 italic">
+			Developed by <a
+				class="transition-all-500 hover:(text-white underline)"
+				href="https://chrisna.pages.dev"
+				target="_blank"
+			>
+				Chrisna Adhi Pranoto
+			</a>
 		</p>
 	</div>
 </section>
@@ -29,9 +38,5 @@
 	h1 {
 		@apply text-9xl text-violet font-semibold;
 		font-family: 'Qwigley';
-	}
-
-	p {
-		@apply text-md font-semibold text-white;
 	}
 </style>
