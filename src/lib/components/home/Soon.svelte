@@ -27,12 +27,13 @@
 
 <style>
 	section {
-		@apply flex flex-col items-center justify-center h-full max-w-3xl ma text-center gap-3;
+		@apply flex flex-col items-center justify-center w-full h-full text-center gap-3;
 	}
 
 	.bg-img {
 		background-image: url('/img/lib.webp');
-		@apply absolute w-full h-screen object-cover z-0;
+		/* background-size: cover; */
+		@apply absolute w-full h-full bg-cover z-0;
 	}
 
 	h1 {
