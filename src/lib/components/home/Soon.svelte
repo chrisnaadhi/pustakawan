@@ -8,10 +8,9 @@
 	<div class="bg-img" />
 	<div class="absolute w-full h-full bg-dark-8 opacity-80 z-1" />
 	<div class="z-2 flex flex-col gap-3">
-		<h1>Pustakawan</h1>
+		<h1>Curatorian</h1>
 		<p class="text-md font-semibold text-white">
-			Portal Pustakawan untuk berbagi pengalaman, ilmu dan ide untuk pengembangan koleksi pustaka
-			dan infrastruktur yang mendukungnya.
+			Portal Curatorian untuk berbagi pengalaman, ilmu dan ide untuk pengembangan koleksi karya ilmiah, seni, budaya, pengetahuan serta infrastruktur yang mendukungnya.
 		</p>
 		<p class="text-xs text-gray-3 italic">
 			Developed by <a
